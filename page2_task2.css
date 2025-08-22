@@ -1,0 +1,85 @@
+/* === Reset basic styles === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 100%, 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+p{
+    font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.hidden{
+    display: none !important;
+}
+.container2{
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+i{
+    width: 150px;
+}
+.text11{
+    background-color: hsla(217, 12%, 63%, 0.151);
+    color:hsl(25, 97%, 53%);
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.text22{
+    font-weight: 700;
+    font-size: 25px;
+}
+.text33{
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+}
+.container2{
+    display: none;
+}
