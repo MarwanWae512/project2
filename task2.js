@@ -87,3 +87,5 @@ five.addEventListener("click",function() {
     output=5;
     selected.textContent=String(output);
 })
+
+
