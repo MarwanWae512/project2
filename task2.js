@@ -87,9 +87,3 @@ five.addEventListener("click",function() {
     output=5;
     selected.textContent=String(output);
 })
-
-
-var timer = setTimeout(function(){
-    console.log("Hello!");
-},2000)
-clearTimeout(timer)
